@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Lezione HTML</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  <header>
+    <h1>Form</h1>
+  </header>
+  <body>
+    <form>
+      <label for="email">Email</label>
+      <br />
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="password">Password</label>
+      <br />
+      <input type="password" id="password" name="password" required />
+      <br />
+      <label for="name_and_surname">Nome e Cognome</label>
+      <br />
+      <input
+        type="text"
+        id="name_and_surname"
+        name="name_and_surname"
+        required
+      />
+      <br />
+      <label for="birth_date">Data di Nascita</label>
+      <br />
+      <input type="date" id="" name="birth_date" required />
+      <br />
+      <label for="telephone_number">Numero di telefono</label>
+      <br />
+      <input
+        type="tel"
+        id="telephone_number"
+        name="telephone_number"
+        required
+      />
+      <br />
+      <label for="subscription_plan">Tier Abbonamento</label>
+      <select name="subscription_plan" id="subscription_plan" required>
+        <option value="free">Free</option>
+        <optgroup>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+        </optgroup>
+        <option value="pro">
+          <input type="checkbox" id="pro_checkbox" />Pro
+        </option>
+      </select>
+      <!--è possibile compiere questo senza css e o js? Ho scawerato l'interwebs ma tutte le soluzioni o non usano select affatto per avere elementi in una lista con checkbox o se lo usano è in congiunzione con altro, penso che la mia implementazione sia incorretta visto che input checkbox non funziona dentro select option-->
+      <br />
+      <label for="card_number">Numero di carta</label>
+      <br />
+      <input type="number" id="card_number" name="card_number" required />
+      <br />
+      <label for="CVC">CVC</label>
+      <br />
+      <input
+        type="number"
+        id="cvc"
+        name="cvc"
+        required
+        min="3"
+        max="3"
+        required
+      />
+      <!--btw potevo mettere min max per validare anche gli altri but ngl mi pesa-->
+      <br />
+      <label for="card_expiration">Scadenza carta</label>
+      <br />
+      <input type="date" id="expiration" name="expiration" required />
+      <br />
+      <label for="invoice_address">Indirizzo di Fatturazione</label>
+      <br />
+      <input type="text" id="invoice_address" name="invoice_address" required />
+      <br />
+      <br />
+      <input type="submit" id="submit" name="submit" />
+    </form>
+  </body>
+</html>
