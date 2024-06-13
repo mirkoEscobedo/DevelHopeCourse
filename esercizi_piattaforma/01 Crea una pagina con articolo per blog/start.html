@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Lezione HTML</title>
+    <style>
+      h1 {
+        color: white;
+        text-align: center;
+      }
+
+      body {
+        background-color: rgb(28, 28, 28);
+        color: rgb(250, 250, 250);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .article_title {
+        text-align: center;
+        margin-top: 8px;
+        padding-top: 16px;
+      }
+
+      .article_text {
+        text-align: center;
+        margin: 16px;
+      }
+
+      .article_image {
+        border-radius: 2px;
+        align-self: center;
+      }
+
+      #article_laptop_poem {
+        background-image: url(./assets/laptop.png);
+      }
+    </style>
+  </head>
+  <!--volevo avere il text area della stessa dimenensione dell'articolo ma I'm stomped e non sono emozionalmente pronto per tuffarmi in flexbox oggi ngl mi mancano i widget di flutter lel-->
+  <body>
+    <header>
+      <h1>Laptop Blog Thinghy</h1>
+    </header>
+    <section id="complaint_section">
+      <p>
+        L'esemprio pratico di perchè la maggior parte di immagini con sia colori
+        scuri che chiari fa schifo come background
+      </p>
+    </section>
+    <article id="article_laptop_poem">
+      <h2 class="article_title">Pixels and Pulse</h2>
+      <p id="article_laptop_poem_text" class="article_text">
+        In the glow of laptop screens, secrets keep,
+        <br />Whispers of science, making hearts leap. <br />
+        Pixels and circuits, life's fleeting dance,<br />
+        While mRNA tales twist in a trance.<br /><br />
+        Data streams buzz, conspiracies fly,<br />
+        Tech and biology, how they entwine.<br />
+        But beware the whispers, not all truths ring, <br />
+        In the realm of bytes, not everything sings. <br /><br />
+        For laptops and jabs, they tell a tale, <br />
+        Of progress and peril, in a digital veil. <br />
+        Yet in the end, as truths unfurl, <br />
+        Let’s seek the facts in this quirky world. <br />
+        - ChatGpt 4o
+      </p>
+      <img
+        class="article_image"
+        alt="hands typing on a keyboard"
+        src="./assets/hands.png"
+        id="hand_img"
+      />
+    </article>
+    <footer>
+      <form>
+        <section class="comment_section">
+          <h3>Tell us what you think with a comment:</h3>
+          <label for="comment">Commenta:</label>
+          <br />
+          <textarea
+            id="comment"
+            placeholder="commento"
+            class="comment_area"
+            required
+          ></textarea>
+          <br />
+
+          <label for="email"> Email: </label>
+          <br />
+          <input type="email" placeholder="Email" id="email" required />
+          <br />
+          <br />
+          <input type="submit" placeholder="Invia" />
+        </section>
+      </form>
+    </footer>
+  </body>
+</html>
