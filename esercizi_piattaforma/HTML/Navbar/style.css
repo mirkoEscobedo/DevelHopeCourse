@@ -33,3 +33,8 @@ ol {
     padding: 6px;
   }
 }
+
+#disabled {
+  opacity: 49%;
+  cursor: not-allowed;
+}
