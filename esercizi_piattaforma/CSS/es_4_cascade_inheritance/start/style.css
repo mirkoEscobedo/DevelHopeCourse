@@ -18,6 +18,7 @@ em {
   background-color: greenyellow;
   color: black;
   font-weight: bold;
+  font-style: inherit;
 }
 
 ul {
@@ -28,18 +29,19 @@ ul li {
   padding: 16px;
 }
 
-.link1 a {
-  padding: 16px;
+.link1 > a {
+  padding: inherit;
+  color: inherit;
 }
 
-.link2 a {
-  padding: 0;
-  color: lightslategray;
+.link2 > a {
+  padding: initial;
+  color: initial;
 }
 
 .link3 a {
   color: unset;
-  padding: 0;
+  padding: unset;
 }
 
 .content1 p {
