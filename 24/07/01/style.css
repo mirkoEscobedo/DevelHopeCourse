@@ -1,0 +1,44 @@
+#container1 {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  padding: 32px;
+}
+
+#container1 button {
+  color: white;
+  background-color: red;
+  border-radius: 6px;
+  border-color: transparent;
+  padding: 8px 32px;
+  margin-top: 16px;
+}
+
+#container1 button:hover {
+  color: red;
+  background-color: white;
+}
+
+#container1 p::before,
+p::after {
+  content: '"';
+}
+
+#form1 {
+  text-align: center;
+}
+
+.submit-form input {
+  padding: 8px;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+}
+
+.submit-form label {
+  text-align: left;
+}
