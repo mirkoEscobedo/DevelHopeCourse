@@ -1,0 +1,77 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 0 solid transparent;
+  border-radius: 16px;
+  box-shadow: 3px;
+  /* perchè lo shadow non si mostra, sono massimamente confuso */
+  width: 200px;
+  height: 200px;
+  font-weight: bold;
+}
+
+.calculator div p {
+  margin: auto;
+  text-align: center;
+  justify-self: center;
+  /* perchè i p non vengono justificati?*/
+  align-self: center;
+}
+
+#result p {
+  margin: 8px 8px 0 0;
+  text-align: right;
+  padding: 0;
+}
+
+.noborder-left {
+  border-left: unset;
+}
+
+.noborder-right {
+  border-right: unset;
+}
+
+.noborder-top {
+  border-top: unset;
+}
+
+.noborder-bottom {
+  border-bottom: unset;
+}
+
+.radius-top-right {
+  border-top-right-radius: 8px;
+}
+
+.radius-top-left {
+  border-top-left-radius: 8px;
+}
+
+.radius-bottom-left {
+  border-bottom-left-radius: 8px;
+}
+
+.radius-bottom-right {
+  border-bottom-right-radius: 8px;
+}
+
+div {
+  border: 1px solid #9aacba;
+}
+
+.result {
+  grid-column: 1 / span 4;
+  background-color: #424b51;
+  color: white;
+}
+
+.equals {
+  grid-column: 4;
+  grid-row: 3 / span 4;
+  background-color: #f66f76;
+}
+
+.operands {
+  background-color: #d5d4d4;
+}
