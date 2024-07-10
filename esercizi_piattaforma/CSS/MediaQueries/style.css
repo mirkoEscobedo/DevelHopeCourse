@@ -1,74 +1,72 @@
-@media screen and (min-width: 768px) {
-  body {
-    height: 100%;
-    width: 100%;
-    display: flex;
-  }
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
 
-  .card {
-    width: 300px;
-    box-shadow: 3px black;
-    border: 2px solid;
-    border-radius: 10px;
-    margin: 8px;
-    padding: unset;
-    background-color: #f2f3f3;
-  }
-  .top-radius {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
+.card {
+  width: 300px;
+  box-shadow: 3px black;
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 8px;
+  padding: unset;
+  background-color: #f2f3f3;
+}
+.top-radius {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 
-  .bottom-radius {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-  .card-top {
-    background-color: #b1b0b0;
-    display: flex;
-    flex-direction: row;
-  }
+.bottom-radius {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card-top {
+  background-color: #b1b0b0;
+  display: flex;
+  flex-direction: row;
+}
 
-  .card-top svg {
-    margin: 6px;
-  }
+.card-top svg {
+  margin: 6px;
+}
 
-  .card-name {
-    flex-grow: 2;
-    align-self: center;
-  }
+.card-name {
+  flex-grow: 2;
+  align-self: center;
+}
 
-  .icons {
-    margin-left: 6px;
-  }
+.icons {
+  margin-left: 6px;
+}
 
-  p {
-    margin: 0;
-    padding: 0;
-  }
+p {
+  margin: 0;
+  padding: 0;
+}
 
-  img {
-    width: 300px;
-  }
+img {
+  width: 300px;
+}
 
-  .dots {
-    align-self: center;
-  }
+.dots {
+  align-self: center;
+}
 
-  .content {
-    background-color: #f2f3f3;
-  }
+.content {
+  background-color: #f2f3f3;
+}
 
-  .data {
-    color: #cececf;
-  }
+.data {
+  color: #cececf;
+}
 
-  .text {
-    margin: 6px;
-  }
+.text {
+  margin: 6px;
 }
 /* can I get a retard check here pls idk why and tf, mister flex-wrap can you wrap harder idk */
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .body {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +137,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .body {
     display: flex;
     flex-direction: column;
