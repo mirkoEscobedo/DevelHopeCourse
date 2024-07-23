@@ -1,5 +1,12 @@
-function sayHellonName(name) {
-    return console.log('Hello ' + name);
+function printName(name) {
+  console.log(name);
 }
 
-setTimeout(sayHellonName , 2000);
+function sayHelloName(func, name) {
+  setTimeout(function () {
+    console.log('Hello ');
+    func(name);
+  }, 1000);
+}
+
+sayHelloName(printName, 'Laura');
