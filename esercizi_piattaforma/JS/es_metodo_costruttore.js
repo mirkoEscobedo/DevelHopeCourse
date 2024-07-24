@@ -1,7 +1,9 @@
-function Smartphone(brand, name, price) {
+class Smartphone {
+  constructor(brand, name, price) {
     this.brand = brand;
     this.name = name;
     this.price = price;
+  }
 }
 
 console.log(new Smartphone('nokia', 'brick', '5$'));
