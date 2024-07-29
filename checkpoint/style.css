@@ -1,0 +1,22 @@
+body {
+  display: flex;
+}
+
+.drawer {
+  background-color: gray;
+  width: 300px;
+}
+
+#logo-drawer {
+  background-color: aqua;
+}
+
+.top-bar {
+  background-color: lightgray;
+  
+}
+
+#logo-bar {
+  justify-self: right;
+  background-color: blue;
+}
