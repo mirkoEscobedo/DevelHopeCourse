@@ -2,7 +2,7 @@ function performOperation(a, b, callback) {
   try {
     callback(a + b);
   } catch {
-    return new Error(`bro we neeed numbers not something else`, null);
+    throw new Error(`bro we neeed numbers not something else`, null);
   }
   //...
 }
