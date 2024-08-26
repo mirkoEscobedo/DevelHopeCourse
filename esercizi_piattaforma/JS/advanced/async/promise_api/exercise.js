@@ -36,10 +36,8 @@ const jobs = [
 
 function fetchPersonById(persons, id) {
   return new Promise((ok, err) => {
+    let foundPerson = persons.find((person) => person.id == id);
     setTimeout(() => {
-      let foundPerson = persons.find((person) => {
-        person.id == id;
-      });
       if (foundPerson !== undefined) {
         ok(foundPerson);
       } else {
@@ -61,14 +59,6 @@ function fetchJobById(jobs, id) {
     }, 1000);
   });
 }
-
-fetchJobById(jobs, 2)
-  .then((result) => {
-    console.log(result);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
 
 function go(persons, jobs, id) {
   Promise.all([fetchPersonById(persons, id), fetchJobById(jobs, id)])
