@@ -1,0 +1,61 @@
+<!-- Lo scopo di questo task è di mostrare nella pagina una carta de "Il signore degli anelli" con:
+
+Nome del personaggio
+immagine del personaggio
+Prova a fetchare una card dal db del gioco di carte di Lord of the Rings, la documentazione dell'API la puoi trovare a questo link: https://ringsdb.com/api/doc
+Fai in modo che nella tua pagina html spuntino il nome del personaggio della carta, la sua immagine -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card {
+        border: 1px solid black;
+        border-radius: 8px;
+        box-shadow: 1px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="title"></h1>
+      <img
+        src=""
+        alt="personaggio signore degli anelli"
+        height="200px"
+        width="200px"
+      />
+    </div>
+    <button class="btn">fetch a LOTR char</button>
+    <script>
+      const btn = document.querySelector('.btn');
+      const title = document.querySelector('.title');
+      const img = document.querySelector('img');
+
+      function randonNumber() {
+        return Math.floor(Math.random() * 90000) + 10000;
+      }
+
+      async function fetchCard(cardCode) {
+        try {
+          const data = await fetch(
+            `https://ringsdb.com/api/public/card/${cardCode}.json/`
+          );
+          const result = await data.json();
+          return result;
+        } catch (error) {
+          console.log(error);
+        }
+      }
+      btn.addEventListener('click', (event) => {
+        const cardCode = randonNumber();
+        const card = fetchCard(cardCode);
+        title.innerText = card.name;
+        img.setAttribute('src', card.imagesrc);
+      });
+    </script>
+  </body>
+</html>
