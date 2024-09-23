@@ -52,9 +52,10 @@ Fai in modo che nella tua pagina html spuntino il nome del personaggio della car
       }
       btn.addEventListener('click', (event) => {
         const cardCode = randonNumber();
-        const card = fetchCard(cardCode);
-        title.innerText = card.name;
-        img.setAttribute('src', card.imagesrc);
+        fetchCard(cardCode).then((result) => {
+          title.innerText = result.name;
+          img.setAttribute('src', result.imagesrc);
+        });
       });
     </script>
   </body>
