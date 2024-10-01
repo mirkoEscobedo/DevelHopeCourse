@@ -6,14 +6,23 @@ import './App.css';
 function Welcome({ name, age }) {
   return (
     <div>
-      <p>
-        Welcome, <strong>{name}</strong>!
-      </p>
-      <Age age={{ age }}></Age>
+      <p>Welcome, {name}!</p>
+      {age > 18 && <Age age={{ age }}></Age>}
+      {age && <Age age={{ age }}></Age>}
+      {age > 18 && age < 65 && <Age age={{ age }}></Age>}
+      {age > 18 && name === 'John' && <Age age={{ age }}></Age>}
+      <Message age={{ age }}></Message>
     </div>
   );
 }
 
+function Message({ age }) {
+  return (
+    <div>
+      {age > 18 ? <Age age={{ age }}></Age> : <p>You are very young!</p>}
+    </div>
+  );
+}
 function Age({ age }) {
   return <p>Your age is {age}</p>;
 }
@@ -24,7 +33,7 @@ function App() {
   return (
     <>
       <div>
-        <Welcome name={'alby'} age={21}></Welcome>
+        <Welcome name={'John'} age={31}></Welcome>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
