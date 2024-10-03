@@ -9,7 +9,7 @@ function Welcome({ name, age }) {
       <p>
         Welcome, <strong>{name}</strong>!
       </p>
-      <Age age={{ age }}></Age>
+      <Age age={age}></Age>
     </div>
   );
 }

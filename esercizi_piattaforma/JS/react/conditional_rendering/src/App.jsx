@@ -7,11 +7,11 @@ function Welcome({ name, age }) {
   return (
     <div>
       <p>Welcome, {name}!</p>
-      {age > 18 && <Age age={{ age }}></Age>}
-      {age && <Age age={{ age }}></Age>}
-      {age > 18 && age < 65 && <Age age={{ age }}></Age>}
-      {age > 18 && name === 'John' && <Age age={{ age }}></Age>}
-      <Message age={{ age }}></Message>
+      {age > 18 && <Age age={age}></Age>}
+      {age && <Age age={age}></Age>}
+      {age > 18 && age < 65 && <Age age={age}></Age>}
+      {age > 18 && name === 'John' && <Age age={age}></Age>}
+      <Message age={age}></Message>
     </div>
   );
 }
@@ -19,7 +19,7 @@ function Welcome({ name, age }) {
 function Message({ age }) {
   return (
     <div>
-      {age > 18 ? <Age age={{ age }}></Age> : <p>You are very young!</p>}
+      {age > 18 ? <Age age={age}></Age> : <p>You are very young!</p>}
     </div>
   );
 }
