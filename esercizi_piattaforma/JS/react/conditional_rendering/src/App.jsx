@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       <div>
-        <Welcome name={'John'} age={31}></Welcome>
+        <Welcome name={'John'} age={18}></Welcome>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
