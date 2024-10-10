@@ -2,8 +2,8 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
-import { AlertClock, alertOnClick } from './AlertClock';
-import { Clock } from '../../use_effect/src/Clock';
+import Counter from './Counter';
+import { Clock } from './Clock';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <div>
-        <AlertClock callback={alertOnClick}></AlertClock>
-        
+        <Counter increment={2} init={0}></Counter>
+        <Clock></Clock>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
