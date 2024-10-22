@@ -29,10 +29,12 @@ const TodoList = () => {
       <button onClick={resetTodo}>Reset todos</button>
       <ul>
         {todos.map((todo, index) => {
-          <li key={index}>
-            {todo}
-            <button onClick={removeTodo}>Remove todo</button>;
-          </li>;
+          return (
+            <li key={index}>
+              {todo}
+              <button onClick={() =>removeTodo(index)}>Remove todo</button>;
+            </li>
+          );
         })}
       </ul>
     </>
