@@ -5,9 +5,9 @@ const Color = ({ id, name }) => {
 const Colors = ({ colorList }) => {
   return (
     <ul>
-      {colorList.map((color) => {
-        <Color key={color.id} name={color.name}></Color>;
-      })}
+      {colorList.map((color) => (
+        <Color key={color.id} name={color.name}></Color>
+      ))}
     </ul>
   );
 };
