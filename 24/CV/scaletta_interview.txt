@@ -1,0 +1,15 @@
+salve sono Escobedo Mirko
+
+diplomato in Scienze Applicate
+
+certificazione Inglese C2(Bilingue)
+
+dal 2019 all'anno scorso ho lavorato come IT per una microimpresa Falegnameria Facchinetti
+
+ho fatto un Corso di Data Analysis di Google
+
+e in fine ho fatto il corso di Develhope tra Agosto del 2024 e fine Dicembre, questo bootcamp formativo per Jr developers
+    include FrontEnd : HTML Css Js React TypeScript dei Cenni su Node per BackEnd e cenni su SQL per collegare il database al backend.
+    Oltre a essere un corso teorico è anche pratico: abbiamo fatto un progetto di Team usando il versionamento di Git e Trello per assegnare i tasks 
+
+e mi starei candidando per una posizione da Jr FrontEnd Developer.
