@@ -6,12 +6,23 @@ diplomato in Scienze Applicate
 
 certificazione Inglese C2(Bilingue)
 
-dal 2019 all'anno scorso ho lavorato come IT per una microimpresa Falegnameria Facchinetti
+dal 2019 all'anno scorso ho lavorato come Supporto Tecnico (IT) per una microimpresa Falegnameria Facchinetti
 
 ho fatto un Corso di Data Analysis di Google
 
 e in fine ho fatto il corso di Develhope tra Giugno del 2024 e fine Dicembre, questo bootcamp formativo per Jr developers
-    include FrontEnd : HTML Css Js React TypeScript dei Cenni su Node per BackEnd e cenni su SQL per collegare il database al backend.
+    include FrontEnd : HTML Css Js React TypeScript e BackEnd quindi Node e cenni su SQL per collegare il database al backend.
     Oltre a essere un corso teorico è anche pratico: abbiamo fatto un progetto di Team usando il versionamento di Git e Trello per assegnare i tasks 
 
-e mi starei candidando per una posizione da Jr FrontEnd Developer.
+durante il progetto mi sono ritrovato a coprire la posizione di team lead,  designer e system architect
+ dovendo gestire una situazione complessa riuscendo comunque a portare a termine il progetto con successo
+
+sono appassionato di Programmazione e spero di poter crescere durante il periodo nella vostra azienda
+ mi starei candidando per una posizione da Jr FrontEnd Developer.
+
+
+
+ focalizzare e essere più succinto
+
+ non sminuire la parte di backend e lasciarla come nozioni di base
+ 
