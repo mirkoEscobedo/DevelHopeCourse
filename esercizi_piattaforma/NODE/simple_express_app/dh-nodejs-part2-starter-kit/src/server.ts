@@ -27,7 +27,7 @@ const TODO: string = 'start writing your Express API server here :)';
 console.log(TODO);
 
 const app = express();
-
+app.use(express.json())
 app.use(morgan('dev'));
 
 const planetSchema = Joi.object({
