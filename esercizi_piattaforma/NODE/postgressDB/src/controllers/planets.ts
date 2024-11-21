@@ -1,7 +1,9 @@
 import { Request, Response } from 'express';
 import Joi from 'joi';
 import pgPromise from 'pg-promise';
+
 const db = pgPromise()('postgress://postgress:001510@localhost:5432/test_db');
+
 console.log(db);
 type Planet = {
   id: number;
@@ -54,9 +56,8 @@ function updateById(req: Request, res: Response) {
   const validatePlanet = planetSchema.validate({ id: id, name: name });
   if (validatePlanet.error) {
     return res.status(400).json({ msg: validatePlanet.error });
-  }
-  planets = planets.map((p) => (p.id === Number(id) ? { ...p, name } : p));
-  res.status(200).json({ msg: 'planet updated' });
+  } planets = planets.map((p) => (p.id === Number(id) ? { ...p, name } : p));
+    res.status(200).json({ msg: 'planet updated' });
 }
 
 function deleteById(req: Request, res: Response) {
