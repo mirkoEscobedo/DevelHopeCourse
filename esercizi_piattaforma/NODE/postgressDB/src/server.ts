@@ -3,7 +3,6 @@ import morgan from 'morgan';
 import Joi from 'joi';
 import { getAll, getOneById, create, updateById, deleteById } from './controllers/planets';
 
-
 type Planet = {
   id: number;
   name: string;
@@ -38,9 +37,13 @@ app.get('/api/planets', getAll);
 
 app.get('/api/planets/:id',getOneById);
 
-app.post('/api/planets', create);
+app.post('/api/planets', (req, res) => {
+  create(req, res)
+});
 
-app.put('/api/planets/:id', updateById);
+app.put('/api/planets/:id', (req, res) => {
+  updateById(req, res)
+});
 
 app.delete('/api/planets/:id', deleteById);
 
