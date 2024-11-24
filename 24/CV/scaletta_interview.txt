@@ -24,7 +24,9 @@ Domande per Hr di Avvale:
 
 Si occupano di trasformazione digitale con un focus sulla crescita sostenibile attraverso un modello di buisness circolare e innovazione digitale; assistono i clienti nella modernizzazione delle tecnologie centrali a un'attività, sfruttando intelligenza artificiale e data, automatizzando processi , e migliorando l'esperienza di clienti e impiegati.
 
-Ho visto che vi occupate di tecnologie come Ai blockchain digital twins, onestamente sarei molto interessato in tutti questi campi, in particolare vorrei chiedere se avete mai intrapreso progetti utilizzando zero knowledge proofs
+Ho visto che vi occupate di tecnologie come Ai blockchain digital twins, onestamente sarei molto interessato in tutti questi campi, in particolare vorrei chiedere se avete mai intrapreso progetti utilizzando zero knowledge proofs (che ricercando tra i case studies sotto blockchain ritorna 0 risultati)
+
+Sempre tra i vostri progetti passati se si poteva saperne di piu su stategie di investimento innovative basate sul machine learning, che nella sezione l'approccio non viene spiegato il tipo di modello utilizzato se non solo le piattaforma usata (Azure) che non è per nulla indicativo della metodologia
 
 Ho visto in oltre che avete fatto anche progetti nell'ambito di personalizzazione della cura e salute, vorrei saperne di piu che ho appena iniziato un progettino in flutter su un'applicazione per workout e salute generale che utilizza il concetto di multi-omics (un approccio olistico per la comprensione di sistemi biologici ottenuto dall'analisi combinata di 2 o piu omics : genomics, transcriptomics, proteomics, metabolomics, epigenomics, lipodomics, microbiomics;)
 
