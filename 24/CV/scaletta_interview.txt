@@ -6,23 +6,28 @@ diplomato in Scienze Applicate
 
 certificazione Inglese C2(Bilingue)
 
-dal 2019 all'anno scorso ho lavorato come Supporto Tecnico (IT) per una microimpresa Falegnameria Facchinetti
+da Agosto 2018 all'anno scorso ho lavorato come Supporto Tecnico (IT) per una microimpresa Falegnameria Facchinetti
 
 ho fatto un Corso di Data Analysis di Google
 
 e in fine ho fatto il corso di Develhope tra Giugno del 2024 e fine Dicembre, questo bootcamp formativo per Jr developers
-    include FrontEnd : HTML Css Js React TypeScript e BackEnd quindi Node e cenni su SQL per collegare il database al backend.
+    include FrontEnd : HTML Css Js React TypeScript e nozioni di base sul BackEnd Node e SQL.
     Oltre a essere un corso teorico è anche pratico: abbiamo fatto un progetto di Team usando il versionamento di Git e Trello per assegnare i tasks 
 
 durante il progetto mi sono ritrovato a coprire la posizione di team lead,  designer e system architect
  dovendo gestire una situazione complessa riuscendo comunque a portare a termine il progetto con successo
 
-sono appassionato di Programmazione e spero di poter crescere durante il periodo nella vostra azienda
- mi starei candidando per una posizione da Jr FrontEnd Developer.
+sono appassionato di Programmazione e spero di poter crescere e imparare durante il periodo nella vostra azienda
 
 
+Domande per Hr di Avvale:
 
- focalizzare e essere più succinto
+Si occupano di trasformazione digitale con un focus sulla crescita sostenibile attraverso un modello di buisness circolare e innovazione digitale; assistono i clienti nella modernizzazione delle tecnologie centrali a un'attività, sfruttando intelligenza artificiale e data, automatizzando processi , e migliorando l'esperienza di clienti e impiegati.
 
- non sminuire la parte di backend e lasciarla come nozioni di base
- 
+Ho visto che vi occupate di tecnologie come Ai blockchain digital twins, onestamente sarei molto interessato in tutti questi campi, in particolare vorrei chiedere se avete mai intrapreso progetti utilizzando zero knowledge proofs
+
+Ho visto in oltre che avete fatto anche progetti nell'ambito di personalizzazione della cura e salute, vorrei saperne di piu che ho appena iniziato un progettino in flutter su un'applicazione per workout e salute generale che utilizza il concetto di multi-omics (un approccio olistico per la comprensione di sistemi biologici ottenuto dall'analisi combinata di 2 o piu omics : genomics, transcriptomics, proteomics, metabolomics, epigenomics, lipodomics, microbiomics;)
+
+Ho visto che l'offerta da ricoprire che avete mandato a Develhope non è presente sulla sezione di posizioni aperte sul vostro sito internet 
+
+Vorrei farle una domanda sul come vedete la situazione lavorativa futura (mercato lavorativo per software developers)
