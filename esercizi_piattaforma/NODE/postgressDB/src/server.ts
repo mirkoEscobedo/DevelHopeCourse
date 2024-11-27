@@ -9,8 +9,11 @@ import {
   deleteById,
   createImage,
 } from './controllers/planets';
-import { logIn, singUp } from './controllers/users';
+import { logIn, logOut, singUp } from './controllers/users';
 import multer from 'multer';
+import { authorize } from './controllers/authorize';
+import './passport';
+
 type Planet = {
   id: number;
   name: string;
@@ -68,6 +71,7 @@ app.post('/api/planets/:id/image', upload.single('image'), createImage);
 
 app.post('/api/users/signup', singUp);
 app.post('/api/users/login', logIn);
+app.get('/api/users/logout', authorize, logOut);
 app.listen(process.env.PORT, () => {
   console.log('Serving on https://Localhost:3000');
 });
