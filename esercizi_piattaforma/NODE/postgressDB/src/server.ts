@@ -9,6 +9,7 @@ import {
   deleteById,
   createImage,
 } from './controllers/planets';
+import { logIn, singUp } from './controllers/users';
 import multer from 'multer';
 type Planet = {
   id: number;
@@ -63,8 +64,10 @@ app.put('/api/planets/:id', (req, res) => {
 
 app.delete('/api/planets/:id', deleteById);
 
-app.post('api/planets/:id/image', upload.single('image'), createImage);
+app.post('/api/planets/:id/image', upload.single('image'), createImage);
 
+app.post('/api/users/signup', singUp);
+app.post('/api/users/login', logIn);
 app.listen(process.env.PORT, () => {
   console.log('Serving on https://Localhost:3000');
 });
