@@ -20,3 +20,6 @@ INSERT INTO Books VALUES ('War and Peace', 'Leo Tolstoy' , 'Historical', 1869, 1
 
 UPDATE Books SET stock_count= 1199 WHERE book_id= 2;
 
+GRANT SELECT UPDATE ON Books TO 'martin'@'localhost';
+
+REVOKE UPDATE ON Books TO 'martin'@'localhost';
