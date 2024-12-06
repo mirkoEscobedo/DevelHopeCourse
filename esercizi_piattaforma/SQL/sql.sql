@@ -17,6 +17,9 @@ INSERT INTO Books (title, author, genre, published_year, isbn, price, rating, st
 
 UPDATE Books SET stock_count = 1199 WHERE book_id = 2;
 
+GRANT SELECT UPDATE ON Books TO 'martin'@'localhost'
+REVOKE UPDATE ON Books TO 'martin'@'localhost'
+
 BEGIN TRANSACTION;
 DELETE FROM Books WHERE book_id = 1;
 COMMIT;
