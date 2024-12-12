@@ -63,7 +63,7 @@ const createImage = async (req: Request, res: Response) => {
   const fileName = req.file?.path;
 
   if (fileName) {
-    db.none(`UPDATE planets SET image=$2 WHERE id=$1`, [id, fileName]);
+    await db.none(`UPDATE planets SET image=$2 WHERE id=$1`, [id, fileName]);
     res.status(201).json({ msg: 'planet image uploaded successfully' });
   } else {
     res.status(400).json({ msg: 'planet image failed to upload.' });
